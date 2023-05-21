@@ -3,7 +3,7 @@ const headers = {
 };
 
 const call = (path, method, data, queryObj) => {
-  return fetch(`https://conduit.productionready.io/api/${path}${getQueryString(queryObj)}`, {
+  return fetch(`http://localhost:4000`, {
     method,
     mode: 'cors',
     body: data && JSON.stringify(data),
