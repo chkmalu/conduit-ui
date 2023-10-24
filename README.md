@@ -9,7 +9,7 @@
 This codebase was created to demonstrate a fully fledged fullstack application built with **[crizmas-mvc](https://github.com/raulsebastianmihaila/crizmas-mvc)** including CRUD operations, authentication, routing, pagination, and more.
 
 
-For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repository.
+For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
 
 
 # Getting started
