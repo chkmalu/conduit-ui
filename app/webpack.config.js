@@ -73,7 +73,7 @@ module.exports = {
       : []
   ],
   devServer: {
-    port: 4100,
+    port: 5556,
     static: {
       directory: 'src'
     },
