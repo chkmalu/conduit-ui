@@ -5,4 +5,4 @@ COPY ./app /home/app/
 WORKDIR /home/app/
 RUN npm install
 CMD [ "npm", "start" ]
-EXPOSE 4100
+EXPOSE 5556
