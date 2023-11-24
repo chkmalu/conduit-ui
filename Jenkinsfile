@@ -8,8 +8,8 @@ pipeline {
                 withCredentials([usernamePassword(credentialsId: 'DockerHubAccess', passwordVariable: 'PASSWORD', usernameVariable: 'USERNAME')]) {
                     sh "echo ${password} | docker login -u ${USERNAME} --password-stdin"
                     sh "docker build -t conduit-ui:latest ."
-                    sh "docker tag conduit-ui:latest chkmalu/conduit-ui:latest"
-                    sh "docker push chkmalu/conduit-ui:latest"
+                    sh "docker tag conduit-ui:latest chikamalu/conduit-ui:latest"
+                    sh "docker push chikamalu/conduit-ui:latest"
                 }
 
             }
