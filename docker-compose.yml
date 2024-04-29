@@ -5,4 +5,4 @@ services:
     container_name: conduit-ui
     image: chikamalu/conduit-ui
     ports:
-      - 80:80
+      - 80:5556
