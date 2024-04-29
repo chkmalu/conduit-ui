@@ -1,0 +1,8 @@
+---
+version: "3.8"
+services:
+  conduit-ui:
+    container_name: conduit-ui
+    image: chikamalu/conduit-ui
+    ports:
+      - 80:80
